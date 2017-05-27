@@ -19,6 +19,7 @@
 		30E70D411ED88FEE00CA2388 /* Demo_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E70D401ED88FEE00CA2388 /* Demo_FirebaseUITests.swift */; };
 		30E70D4F1ED8921100CA2388 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E70D4E1ED8921100CA2388 /* GoogleService-Info.plist */; };
 		32685786DFD3D7AE0D52DF05 /* Pods_Demo_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDB019A86CF9F0E551669E9 /* Pods_Demo_FirebaseTests.framework */; };
+		F722FAB41ED97CE600110B5F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722FAB31ED97CE600110B5F /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		C1965609B6A504043AF1903A /* Pods-Demo_FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_FirebaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_FirebaseUITests/Pods-Demo_FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DBDB019A86CF9F0E551669E9 /* Pods_Demo_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5769761BA07A579CFB5092 /* Pods_Demo_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F722FAB31ED97CE600110B5F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F96264C78A45A8CFC3ACCFE1 /* Pods-Demo_Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_Firebase/Pods-Demo_Firebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 		30E70D1F1ED88FEE00CA2388 /* Demo_Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				F722FAB21ED97CCC00110B5F /* Model */,
 				30E70D4E1ED8921100CA2388 /* GoogleService-Info.plist */,
 				30E70D201ED88FEE00CA2388 /* AppDelegate.swift */,
 				30E70D221ED88FEE00CA2388 /* ViewController.swift */,
@@ -169,6 +172,14 @@
 				C1965609B6A504043AF1903A /* Pods-Demo_FirebaseUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F722FAB21ED97CCC00110B5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F722FAB31ED97CE600110B5F /* User.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F722FAB41ED97CE600110B5F /* User.swift in Sources */,
 				300F57AA1ED92DF200376444 /* DetailViewController.swift in Sources */,
 				30E70D231ED88FEE00CA2388 /* ViewController.swift in Sources */,
 				30E70D211ED88FEE00CA2388 /* AppDelegate.swift in Sources */,
